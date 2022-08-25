@@ -9,7 +9,7 @@ popular_df1=pickle.load(open('popular1.pkl','rb'))
 pt1=pickle.load(open('pt1.pkl','rb'))
 new1=pickle.load(open('new1.pkl','rb'))
 similarity_score1=pickle.load(open('similarity_score1.pkl','rb'))
-.
+
 @app.route('/')
 def index():
     return render_template('index.html',
